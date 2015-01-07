@@ -1,0 +1,3 @@
+runtime "ruby"
+
+exec "movie_worker.rb"
