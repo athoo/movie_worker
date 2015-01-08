@@ -2,8 +2,6 @@ runtime "ruby", "2.1"
 
 exec "movie_worker.rb"
 
-file "package.json"
-
 file "iron.json"
 
 file "theater.rb"
