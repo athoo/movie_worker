@@ -1,10 +1,8 @@
 runtime "ruby", "2.1"
 
-exec "movie_worker.rb"
+exec "movie_crawl.rb"
 
 file "iron.json"
-
-file "theater.rb"
 
 gemfile 'Gemfile'
 
