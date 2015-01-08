@@ -2,6 +2,10 @@ runtime "ruby", "2.1"
 
 exec "movie_worker.rb"
 
+file "package.json"
+
+file "iron.json"
+
 gemfile 'Gemfile'
 
 full_remote_build true
