@@ -6,6 +6,8 @@ file "package.json"
 
 file "iron.json"
 
+file "theater.rb"
+
 gemfile 'Gemfile'
 
 full_remote_build true
