@@ -8,7 +8,6 @@ HTTParty.get('https://movie-crawler.herokuapp.com/api/v2/rank/3.json')
 HTTParty.get('https://movie-crawler.herokuapp.com/api/v2/info/latest.json')
 HTTParty.get('https://movie-crawler.herokuapp.com/api/v2/info/second_round.json')
 
-puts "this is a test for worker"
 #us= MovieCrawler.us_weekend
 #tw= MovieCrawler.taipei_weekend
 #dvd= MovieCrawler.dvd_rank
